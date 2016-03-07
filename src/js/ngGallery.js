@@ -29,10 +29,8 @@
 		var template_url = defaults.templateUrl;
 		// Set the default template
 		$templateCache.put(template_url,
-			'<div class="{{ baseClass }}">' +
-			'  <div ng-repeat="i in images">' +
-			'    <img ng-src="{{ i.thumb }}" class="{{ thumbClass }}" ng-click="openGallery($index)" alt="Image {{ $index + 1 }}" />' +
-			'  </div>' +
+			'<div>' +
+			'	<a class="w-photo" ng-click="openGallery(0)"></a>' +
 			'</div>' +
 			'<div class="ng-overlay" ng-show="opened">' +
 			'</div>' +
