@@ -265,3 +265,17 @@ uiload > div {
     -o-animation: uil-ring-anim 1s linear infinite;
     animation: uil-ring-anim 1s linear infinite; 
 }
+
+
+
+.open-full-size {
+    font-size: 26px;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
