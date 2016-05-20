@@ -5,7 +5,7 @@
 
 	ngGallery.$inject = ['$document', '$timeout', '$q', '$templateCache', '$window'];
 
-	function ngGallery( $document, $timeout, $q, $templateCache,  $window  {
+	function ngGallery( $document, $timeout, $q, $templateCache,  $window)  {
 
 		var defaults = {
 			baseClass: 'ng-gallery',
